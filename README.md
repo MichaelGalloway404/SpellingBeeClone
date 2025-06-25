@@ -1,4 +1,12 @@
-To run localy on WINDOWS:  
+# Spelling Bee Clone Senior Capstone Project
+  
+For My Senior Project at Eastern Oregon University, we were tasked with creating a Clone of the New York Times Spelling Bee app.  
+Our requirements were:  
+>>Front end using JavaScript, HTML, and CSS. 
+>>REST API using Pythons Flask library
+>>And MySQL for the database containing 80k words provided by the professor via a word.txt file  
+  
+To run locally on WINDOWS:  
 Step 1:  
 >>Download MySQL installer from https://dev.mysql.com/downloads/installer/  
 >>Go through installation steps and write down your user name and password  
