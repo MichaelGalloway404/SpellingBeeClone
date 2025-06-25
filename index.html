@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spelling Bee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spelling Bee</h1>
+        <div id="letters" class="letters"></div>
+        <div id="inputArea">
+            <input type="text" id="wordInput" placeholder="Type your word here..." autofocus>
+            <button id="submitBtn">Submit</button>
+            <button id="restartBtn">Restart</button>
+        </div>
+        <div id="message" class="message"></div>
+        <div class="scoreboard">
+            <h2>Score: <span id="score">0</span></h2>
+            <h2>Rank: <span id="rank">Beginner</span></h2>
+        </div>
+        <div>
+            <h3>Found Words:</h3>
+            <ul id="foundWords"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
