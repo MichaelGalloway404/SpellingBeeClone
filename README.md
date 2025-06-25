@@ -3,8 +3,11 @@
 For My Senior Project at Eastern Oregon University, we were tasked with creating a Clone of the New York Times Spelling Bee app.  
 Our requirements were:  
 >>Front end using JavaScript, HTML, and CSS. 
->>REST API using Pythons Flask library
->>And MySQL for the database containing 80k words provided by the professor via a word.txt file  
+>>REST API using Pythons Flask library.
+>>And MySQL for the database containing 80k words provided by the professor via a word.txt file.
+  
+There are excessive comments for the sake of presenting the code at the end of the semester.  
+Below is a tutorial for running the app on a Windows PC.  
   
 To run locally on WINDOWS:  
 Step 1:  
