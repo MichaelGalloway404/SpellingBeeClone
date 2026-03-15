@@ -10,11 +10,11 @@ There are excessive comments for the sake of presenting the code at the end of t
 Below is a tutorial for running the app on a Windows PC.  
   
 To run locally on WINDOWS:  
-Step 1:  
+## Step 1:  
 >>Download MySQL installer from https://dev.mysql.com/downloads/installer/  
 >>Go through installation steps and write down your user name and password  
       For this project I just used username = root and password = root  
-Step 2:  
+## Step 2:  
   
 >>If added to your environment variables  
 >>From command line run the this command:  
@@ -46,7 +46,7 @@ Step 2:
 >>Or you can use the setup.sql that contains these same lines of code.  
 >>The file sqlCREATE_TABLES.txt contains these lines of code as well.  
   
-Step 3:  
+## Step 3:  
 >>Make sure you have word.txt in the same folder as loadTablesSQL.py  
 >>Make sure in loadTablesSQL.py you change the username and password to what you set it in your MySQL install  
 >>Run loadTablesSQL.py
@@ -55,10 +55,10 @@ Step 3:
    
 >>This will fill you DataBase with the 80K+ words from words.txt  
   
-Step 4:  
+## Step 4:  
 >>Great now make sure app.py also has the correct username and password to what you set it in your MySQL install  
   
-Step 5:  
+## Step 5:  
 >>Now we are ready to run, you will need two command prompts  
 >>In the 1st cmd type:  
 >>>>python -m http.server 8000
@@ -69,6 +69,6 @@ Step 5:
   
 >>now our app is up and running on http://localhost:8000/  
       
-Final step:  
+## Final step:  
 >>Open a Browder and visit the URL http://localhost:8000/  
 >>Enjoy the Game!  
